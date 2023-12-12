@@ -1,0 +1,41 @@
+body {
+    padding-top: 56px; /* Adjust based on your navigation height */
+}
+
+/* Map styles */
+#map {
+    height: 60px;
+    width: 40%;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Adjusted to apply auto margins both horizontally and vertically */
+    overflow: hidden;
+    padding-top: 40%; /* Makes the map square by setting height as a percentage of its width */
+}
+
+body {
+    padding-top: 56px; /* Adjust based on your navigation height */
+}
+
+/* Card styles */
+.about-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 0.9em;
+}
+
+
