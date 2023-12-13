@@ -38,4 +38,39 @@ body {
     font-size: 0.9em;
 }
 
+.slide {
+    display: none;
+}
 
+#imageSlider {
+    max-width: 400px; /* Adjust as needed */
+    margin: 0 auto;
+}
+
+/* Style the carousel images */
+.carousel-inner img {
+    width: 300%;
+    height: 400px; /* Adjust the height of the images */
+    object-fit: cover; /* Maintain image aspect ratio */
+}
+
+/* Customize navigation arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: url('your-arrow-icon.png'); /* Replace with your arrow icon */
+    /* Add other styles for arrow size, color, etc. */
+}
+
+/* Optional: Style the carousel indicators */
+.carousel-indicators li {
+    border-radius: 50%; /* Make the indicators circular */
+    background-color: #888; /* Indicator color */
+}
+
+.carousel-indicators .active {
+    background-color: #333; /* Active indicator color */
+}
+
+.about-card {
+    height: 100%; /* Ensure all cards have the same height */
+}
